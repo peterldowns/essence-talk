@@ -44,6 +44,12 @@ def demo_svd(demo_text):
 # --------------------------------------
 
 
+def print_svd_topics(model):
+  for i, desc in model.show_topics():
+    print i, desc
+
+
+
 def print_results(text, count=20):
   for absolute, relative, sentence in islice(text.get_results(), 0, count):
     print absolute, relative, sentence

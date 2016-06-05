@@ -29,5 +29,10 @@
 
 - What are some smarter techniques?
 - Dimensionality Reduction: SVD, PCA, LSI, LSA
-
+  - M = U S V^
+  - M = words x sentences
+  - U = words x IDEAS
+  - S = strength of IDEAS
+  - V^ = IDEAS x sentences
+  - Show comparison
 - Norms, L1 vs L2
