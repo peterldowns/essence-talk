@@ -84,5 +84,3 @@ class Text(object):
     for sentence in self.sorted_sentences:
       score = self.scores[sentence]
       yield (score, score/self.highest_sentence_score, sentence)
-
-
